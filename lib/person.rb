@@ -26,7 +26,7 @@ class Person
     @age = new_age
   end
 
-  def age=(new_city)
+  def city=(new_city)
     @city = new_city
   end
 end
