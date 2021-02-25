@@ -22,6 +22,13 @@ class Person
     @name = new_name
   end
 
+  def age=(new_age)
+    @age = new_age
+  end
+
+  def age=(new_city)
+    @city = new_city
+  end
 end
 
 kanye=Person.new("Kanye", 35, "Chicago")
