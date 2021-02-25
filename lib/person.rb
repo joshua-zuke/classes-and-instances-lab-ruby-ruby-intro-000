@@ -7,3 +7,6 @@ class Person
     @name
   end
 end
+
+kanye=Person.new
+kanye.name
