@@ -2,6 +2,8 @@ class Person
 
   def initialize(name, age, city)
     @name = name
+    @age = age
+    @city = city
   end
 
   def name
