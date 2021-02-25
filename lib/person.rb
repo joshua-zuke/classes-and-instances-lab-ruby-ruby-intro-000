@@ -8,5 +8,5 @@ class Person
   end
 end
 
-kanye=Person.new
+kanye=Person.new("Kanye")
 kanye.name
