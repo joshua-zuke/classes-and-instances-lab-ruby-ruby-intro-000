@@ -1,34 +1,20 @@
 class Person
-
-  def initialize(name, age, city)
-    @name = name
-    @age = age
-    @city = city
+ 
+  def initialize(first_name, last_name)
+    @first_name = first_name
+    @last_name = last_name
   end
-
+ 
+  def name=(full_name)
+    first_name, last_name = full_name.split
+    @first_name = first_name
+    @last_name = last_name
+  end
+ 
   def name
-    @name
+    "#{@first_name} #{@last_name}".strip
   end
-
-  def age
-    @age
-  end
-
-  def city
-    @city
-  end
-
-  def name=(new_name)
-    @name = new_name
-  end
-
-  def age=(new_age)
-    @age = new_age
-  end
-
-  def city=(new_city)
-    @city = new_city
-  end
+ 
 end
 
 kanye=Person.new("Kanye", 35, "Chicago")
