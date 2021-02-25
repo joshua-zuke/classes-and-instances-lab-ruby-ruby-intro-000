@@ -9,4 +9,4 @@ class Person
 end
 
 kanye=Person.new("Kanye")
-kanye.name
+puts kanye.name
